@@ -1,9 +1,11 @@
 
 const { Sequelize } = require('sequelize');
-
+const db_name = "test"
+const username = "root"
+const password = ""
 
 // Option 3: Passing parameters separately (other dialects)
-const sequelize = new Sequelize('test', 'root', '', {
+const sequelize = new Sequelize(db_name, username, password, {
     dialect: 'mysql',
     dialectOptions: {
         host:"localhost"
