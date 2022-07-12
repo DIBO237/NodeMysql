@@ -10,7 +10,7 @@ npm start
 ```
 
 ### END POINTS:
-1. /orders [POST] - to post names for examples
+1. /order [POST] - to post names for examples
 2. /names [GET] - get all from table
 
 
