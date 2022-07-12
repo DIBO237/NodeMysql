@@ -8,3 +8,19 @@ npm run devstart
 npm start
 
 ```
+
+### END POINTS:
+1. /orders [POST] - to post names for examples
+2. /names [GET] - get all from table
+
+
+```json
+{
+"fname":"anythihggh",
+"lname":"musu"
+
+}
+
+```
+
+
